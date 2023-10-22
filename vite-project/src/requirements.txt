@@ -1,0 +1,17 @@
+This project is a custom counter app built with react.
+
+It has a custom page which displays the counter and  buttons to increment, decrement, reset, setvalue and trigger error boundary.
+
+It works using the increment, decrement, reset and set value functions.
+
+It also has a page to test error boundary  as well as a 404-page which is displayed when an invalid URL is entered.
+
+Libraries used in this project are:
+ react, react-router-dom, react-icons and react-error-boundary.
+
+Dependencies used in this project are:
+   "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-icons": "^4.11.0"
+
