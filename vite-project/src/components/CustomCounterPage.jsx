@@ -1,6 +1,7 @@
 import React, {useState}from 'react';
 import useCustomCounter from '../Hooks/useCustomCounter';
-import { ArrowUp, ArrowDown, RefreshCw } from 'react-feather';
+import { ArrowUp, ArrowDown, RefreshCw} from 'react-feather';
+import {Link} from 'react-router-dom';
 
 import {useEffect} from 'react';
 
@@ -61,7 +62,7 @@ function CustomCounterPage() {
                      border: '2px solid #ddd',
                      borderRadius: '8px',
                      outline: 'none',
-                      margin: '30px 0'
+                      marginTop: '-30px'
                              }}/>
                  </div>
                 <br />
@@ -72,7 +73,7 @@ function CustomCounterPage() {
                     border: '2px solid #ddd',
                     borderRadius: '8px',
                     outline: 'none',
-                    marginTop: '-10px'
+                    marginTop: '3px'
                 
                 }}>Set value</button>
                         
@@ -89,7 +90,15 @@ function CustomCounterPage() {
                     }}>Trigger error</button>
             </div>
                 
-      
+    <Link to="/404-page" style={{
+        textDecoration: 'none',
+        color: 'black',
+        fontSize: '15px',
+        marginTop: '5px'
+    
+    }}>
+        Click here to 404 page
+        </Link>  
             
             
         </div>

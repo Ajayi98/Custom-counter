@@ -22,7 +22,7 @@ function ErrorFallback({ error, resetErrorBoundary }) {
           top: "75%",
         }}
       >
-        Try again
+        Go back to counter
       </button>
     </div>
   );

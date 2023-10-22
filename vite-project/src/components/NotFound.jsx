@@ -28,7 +28,7 @@ function NotFound() {
             top: "75%",
           }}
         >
-          Go to counter
+          Go back to counter
         </button>
       </div>
     </div>
